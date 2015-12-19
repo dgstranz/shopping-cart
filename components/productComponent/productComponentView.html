@@ -1,0 +1,8 @@
+<div>
+	<span>{{info.description}}</span>
+	<span>{{info.brand}}</span>
+	<span>{{info.price}}</span>
+	<a ng-href="#/product/{{info.id}}">Details</a>
+	<input type="number" name="number">
+	<button ng-click="addProductToCart(info.id)">Add product to cart</button>
+</div>
